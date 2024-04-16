@@ -1,0 +1,33 @@
+channels:
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip=21.3.1
+  - pandas~=2.1.4
+  - scipy~=1.10.0
+  - numpy~=1.26.2
+  - pip:
+      - wheel~=0.38.1
+      - azureml-core==1.54.0.post1
+      - azureml-defaults==1.54.0
+      - azureml-mlflow==1.54.0.post1
+      - azureml-telemetry==1.54.0
+      - azureml-automl-common-tools==1.54.0
+      - scikit-learn~=1.3.2
+      - xgboost~=1.7.1
+      - lightgbm~=3.3.3
+      - distributed~=2021.10.0
+      - joblib>=1.2.0
+      - adlfs~=0.7.0
+      - azure-ai-ml~=1.13.0
+      - azure-identity~=1.15.0
+      - mlflow~=2.10.2
+      - mltable~=1.5.0
+      - cryptography>=41.0.4
+      - aiohttp>=3.8.5
+      - certifi >= 2023.07.22
+      - requests >= 2.31.0
+      - statsmodels==0.14.1
+      - plotly==5.18.0
+      - seaborn==0.13.1
